@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { UserRegistrationComponent } from './components/user-registration/user-registration.component';
@@ -24,13 +24,10 @@ import { AddNewAdvComponent } from './components/add-new-adv/add-new-adv.compone
     JobCardComponent,
     FilterBarComponent,
     JobDetailsComponent,
-    AddNewAdvComponent
+    AddNewAdvComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
