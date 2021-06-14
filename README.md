@@ -12,5 +12,5 @@
 3. Download the Project
 4. Open it with an IDE (for example with Microsoft VS Code)
 5. Open the terminal (View -> terminal)
-6. Write npm install int the terminal and press enter.
+6. Write npm install in the terminal and press enter.
 7. Write ng serve and open the http://localhost:4200/ URL in a browser.
